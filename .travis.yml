@@ -2,3 +2,6 @@ language: csharp
 solution: Nhom20.sln
 install:
   - nuget restore Nhom20.sln
+runtime:
+  - name: mono
+version: 4
