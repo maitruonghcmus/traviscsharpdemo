@@ -2,7 +2,3 @@ language: csharp
 solution: Nhom20.sln
 install:
   - nuget restore Nhom20.sln
-  - nuget install NUnit.Runners -Version 3.6.1 -OutputDirectory testrunner
-script:
-  - xbuild /p:Configuration=Release Nhom20.sln
-  - mono ./testrunner/NUnit.Runners.3.6.1/tools/nunit-console.exe ./DemoTest/bin/Release/DemoTest.dll
