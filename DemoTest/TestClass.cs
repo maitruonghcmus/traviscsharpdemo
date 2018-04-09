@@ -23,6 +23,7 @@ namespace DemoTest
         [TestCase(1, 4, 5)]
         [TestCase(3, 2, 5)]
         [TestCase(1, 7, 8)]
+        [TestCase(2, 7, 9)]
         public void TestAdd(int a, int b, int result)
         {
             Assert.AreEqual(result, _Calculator.Add(a, b));
