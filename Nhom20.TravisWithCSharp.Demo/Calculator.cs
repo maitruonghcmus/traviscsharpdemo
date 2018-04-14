@@ -8,9 +8,9 @@ namespace Nhom20.TravisWithCSharp.Demo
 {
     public class Calculator
     {
-        public int Add(int x, int y)
+        public int Add(int x1, int y)
         {
-            return x + y;
+            return x1 + y;
         }
 
         public int Subtract(int x, int y)
