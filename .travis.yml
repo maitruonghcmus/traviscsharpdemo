@@ -7,3 +7,5 @@ install:
 script:
   - xbuild /p:Configuration=Release Nhom20.sln
   - mono ./testrunner/NUnit.Runners.3.6.1/tools/nunit-console.exe ./DemoTest/bin/Release/DemoTest.dll
+  notifications:
+    slack: vietmap-group:5mMDS3qtUCxTUS10sMQdIK5e
